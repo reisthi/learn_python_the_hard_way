@@ -1,7 +1,7 @@
 name = 'Zed S. Shaw'
-age = 35 # not a lie
-height = 74 # inched
-weight = 180 # lbs
+age = 35  # not a lie
+height = 74  # inched
+weight = 180  # lbs
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'

@@ -1,3 +1,5 @@
+# Triple quotes and string manipulation
+
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm slplit\non a line."
 backslash_cat = "I'm \\ a \\ cat."
