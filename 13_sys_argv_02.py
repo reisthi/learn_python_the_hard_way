@@ -2,7 +2,7 @@
 from sys import argv
 
 # this assigns the value of argv into two variables
-script, filename = argv
+script, filename, unknown = argv
 
 # this opens a file named with the name we 
 # grabbed form the user when he inputs the second argument
