@@ -1,7 +1,8 @@
 """ Composition """
 
+
 class Other(object):
-    
+
     def override(self):
         print("OTHER override()")
 
@@ -22,7 +23,7 @@ class Child(object):
 
     def override(self):
         self.other.override()
-    
+
     def altered(self):
         print("CHILD before other altered()")
         self.other.altered()

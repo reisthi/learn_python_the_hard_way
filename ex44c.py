@@ -12,13 +12,13 @@ class Child(Parent):
         print("CHILD  AFTER altered()")
 
 
->>> from ex44c import *
->>> dad = Parent()
->>> son = Child()
->>> dad.altered()
-PARENT altered()
->>> son.altered()
-CHILD  BEFORE PARENT altered()
-PARENT altered()
-CHILD  BEFORE AFTER altered()
->>> 
+# >>> from ex44c import *
+# >>> dad = Parent()
+# >>> son = Child()
+# >>> dad.altered()
+# PARENT altered()
+# >>> son.altered()
+# CHILD  BEFORE PARENT altered()
+# PARENT altered()
+# CHILD  BEFORE AFTER altered()
+# >>>

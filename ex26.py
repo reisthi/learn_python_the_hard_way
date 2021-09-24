@@ -39,9 +39,9 @@ print("--------------")
 print(poem)
 print("--------------")
 
-
-five = 10 - 2 - 3 
+five = 10 - 2 - 3
 print(f"This should be five: {five}")
+
 
 def secret_formula(started):
     jelly_beans = started * 500
@@ -65,12 +65,9 @@ formula = secret_formula(start_point2)
 # this is an easy way to apply a list to a format string
 print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
-
-
 people = 20
 cats = 30
 dogs = 15
-
 
 if people < cats:
     print("Too many cats! The world is doomed!")
@@ -83,7 +80,6 @@ if people < dogs:
 
 if people > dogs:
     print("The world is dry!")
-
 
 dogs += 5
 

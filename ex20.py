@@ -1,10 +1,13 @@
 from sys import argv
+
 #  Get's the input from terminal
 script, input_file = argv
+
 
 def print_all(t):
     # reads the file, f is only a reference
     print(t.read())
+
 
 # function with a parameter
 def rewind(v):
@@ -13,10 +16,12 @@ def rewind(v):
     # '1' is the current position
     v.seek(0)
 
+
 # function with two parameters
 def print_a_line(line_count, t):
     # prints the number of the line, its content
     print(line_count, t.readline())
+
 
 current_file = open(input_file)
 
